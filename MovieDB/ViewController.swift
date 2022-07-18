@@ -74,6 +74,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
         if request == "top_rated" {
             let page = "&page=1"
+//            let page = ""
             let endpoint = "\(baseUrl)\(apiKeyAttachment)\(language)\(page)"
 
             print(endpoint)
